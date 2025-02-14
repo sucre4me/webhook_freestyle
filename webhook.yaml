@@ -12,7 +12,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: web_hook
+      - name: webhook
         image: nginx
         ports:
         - containerPort: 80
